@@ -148,11 +148,8 @@ export default function Navbar() {
                 <
                 Link to = "/"
                 className = "-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-black hover:bg-gray-50"
-                onClick = { handleLinkClick } > Home < /Link> <
-                Link to = "/about"
-                className = "-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-black hover:bg-gray-50"
-                onClick = { handleLinkClick } > About < /Link> <
-                Link to = "/menscloth"
+                onClick = { handleLinkClick } > Home < /Link> 
+                <Link to = "/menscloth"
                 className = "-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-black hover:bg-gray-50"
                 onClick = { handleLinkClick } > Mens < /Link> <
                 Link to = "/womencloth"
