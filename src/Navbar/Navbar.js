@@ -73,8 +73,6 @@ export default function Navbar() {
         <
         Link to = "/"
         className = "text-sm font-semibold leading-6 text-black" > Home < /Link> <
-        Link to = "/about"
-        className = "text-sm font-semibold leading-6 text-black" > About < /Link> <
         Link to = "/menscloth"
         className = "text-sm font-semibold leading-6 text-black" > Mens < /Link> <
         Link to = "/womencloth"
